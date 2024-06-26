@@ -12,5 +12,5 @@ abono = leia.questionInt("\nDigite seu Abono: ");
 nS = salario+abono;
 
 
-console.log(`\nSeu novo salario é: ${nS}`);
+console.log(`\nSeu novo salario é: R$ ${nS.toFixed(2)}`);
 

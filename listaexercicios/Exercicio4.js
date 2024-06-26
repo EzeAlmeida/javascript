@@ -13,4 +13,4 @@ n4 = leia.questionFloat("\nDigite o quarto valor: ");
 
 resultado =(n1 * n2 - n3 * n4);
 
-console.log(`\nA diferença entre o produto de N1 e N2 para N3 e N4 é de: ${resultado}`)
+console.log(`\nA diferença entre o produto de N1 e N2 para N3 e N4 é de: ${resultado.toFixed(2)}`)

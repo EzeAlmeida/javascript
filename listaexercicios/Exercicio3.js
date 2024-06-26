@@ -16,4 +16,4 @@ let aN;
 
 sL = (sB + aN + (hE*5) - des);
 
-console.log(`\nSeu salário líquido é de: ${sL}`);
+console.log(`\nSeu salário líquido é de:  ${sL.toFixed(2)}`)

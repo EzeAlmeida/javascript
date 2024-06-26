@@ -14,4 +14,4 @@ n4 = leia.questionFloat("\nDigite a quarta nota: ");
 
 media = n1 + n2 + n3 +n4 /4;
 
-console.log(`\nA média é: ${media}`);
+console.log(`\nA média é: ${media.toFixed(2)}`);
